@@ -1,5 +1,12 @@
-//Using for loop
+public class HowToPrintNumbersFrom1To100 {
+
+	public static void main(String[] args) {
+		//Using for loop
 		
 		for(int a=1; a<=100; a++) {
 			System.out.println(a);
 		}
+
+	}
+
+}
