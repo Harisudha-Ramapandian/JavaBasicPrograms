@@ -1,4 +1,4 @@
-public class IntegerCachingCompareTwoNumbers {
+public class HowToCompareTwoNumbersUsingIntegerCaching {
 
 	public static void main(String[] args) {
 		// == is not equal in java
@@ -9,12 +9,8 @@ public class IntegerCachingCompareTwoNumbers {
 		Integer num2= 10;
 		if(num1 == num2) {
 			System.out.println("Both are equal");
-					}
-		else {
+		}else {
 			System.out.println("Both are not equal");
 		}
-				
-
-	}
-
+		}
 }
