@@ -1,0 +1,14 @@
+public class SwappingTwoNumbersUsingMultiplyDivisionOperators {
+//* & /
+	public static void main(String[] args) {
+		
+// a and b values should not be zero in this logic
+		int a=10, b=30;
+		System.out.println("Values before swapping= " +a+" "+b);
+		
+		a=a*b;
+		b=a/b;
+		a=a/b;
+		System.out.println("Values after swapping= " +a+" "+b);
+	}
+}
