@@ -1,0 +1,14 @@
+public class HowToPrintNumbersFrom1To100WithoutUsingNumbersInCode {
+
+	public static void main(String[] args) {
+		
+		int one ='x'/'x';
+		String s1 ="..........";
+		
+		for(int a=one; a<=(s1.length()*s1.length()); a++) {
+			System.out.println(a);
+		}
+		
+	}
+
+}
