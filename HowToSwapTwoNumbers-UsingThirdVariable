@@ -1,4 +1,4 @@
-public class SwappingTwoNumbersUsingThirdVariable {
+public class HowToSwapTwoNumbersUsingThirdVariable {
 
 	public static void main(String[] args) {
 		
@@ -10,5 +10,4 @@ public class SwappingTwoNumbersUsingThirdVariable {
 		b=c;
 		System.out.println("Values after swapping= " +a+" "+b);
 		}
-
 }
