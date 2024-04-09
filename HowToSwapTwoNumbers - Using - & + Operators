@@ -1,0 +1,12 @@
+public class SwappingTwoNumbersUsingAddSubOperators {
+
+	public static void main(String[] args) {
+		int a=10, b=30;
+		System.out.println("Values before swapping= " +a+" "+b);
+		
+		a=a+b; // 10+30 = 40
+		b=a-b; // 40-30 = 10
+		a=a-b; // 40-10 = 30
+		System.out.println("Values after swapping= " +a+" "+b);
+	}
+}
