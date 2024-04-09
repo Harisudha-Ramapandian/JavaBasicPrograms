@@ -1,0 +1,20 @@
+public class IntegerCachingCompareTwoNumbers {
+
+	public static void main(String[] args) {
+		// == is not equal in java
+		// integer caching range between -128 to 127
+		// If both the numbers are same within this integer caching range even if we use "==" Output would be "both are equal"
+		
+		Integer num1= 10;
+		Integer num2= 10;
+		if(num1 == num2) {
+			System.out.println("Both are equal");
+					}
+		else {
+			System.out.println("Both are not equal");
+		}
+				
+
+	}
+
+}
